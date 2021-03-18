@@ -1,5 +1,6 @@
 # GhureFiri-Bangladesh-Android-App
 Ghure Firi Bangladesh is a multiplatform tour booking app which lets users to book tours with customization . Users can also see packages that GhureFiri has provided and they can book them . Theres also a feed option where users can see other users posts and also they can add their own post . Users can also like each others posts. Everything is done in realtime . For customer support a chat bot is always active . Users can see there booked packages , tours and posts from their profile .
+
 <img src ="https://user-images.githubusercontent.com/73392407/111594991-e42fb080-87f5-11eb-88e2-22263061689c.jpg" width="200">
 <img src ="https://user-images.githubusercontent.com/73392407/111594996-e560dd80-87f5-11eb-94d6-6fbed5799f02.jpg"  width="200">
 <img src ="https://user-images.githubusercontent.com/73392407/111594999-e5f97400-87f5-11eb-8dce-97f862831bf7.jpg"  width="200">
