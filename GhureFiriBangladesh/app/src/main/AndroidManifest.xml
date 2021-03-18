@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ghurefiribangladesh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_ghure_firi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GhureFiriBangladesh">
+        <activity android:name=".CurrentUserPackageBookings"></activity>
+        <activity android:name=".PackagePayment" />
+        <activity android:name=".PackageOrder" />
+        <activity android:name=".PaymentVerification" />
+        <activity android:name=".PaymentProcess" />
+        <activity android:name=".Payment_Activity" />
+        <activity android:name=".CurrentUserBookings" />
+        <activity android:name=".TimeAndDate" />
+        <activity android:name=".SinglePostActivity" />
+        <activity android:name=".CurrentUserPosts" />
+        <activity android:name=".Transportation" />
+        <activity android:name=".Accommodation" />
+        <activity android:name=".Tour" />
+        <activity android:name=".SinglePackageActivity" />
+        <activity android:name=".PackageOptions" />
+        <activity android:name=".PostActivity" />
+        <activity
+            android:name=".explore"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".olduser" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Registerv" />
+        <activity android:name=".chat" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

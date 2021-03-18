@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    tools:context=".PaymentProcess"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/AshGreen">
+
+
+        <TextView
+            android:id="@+id/OrderInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mateOrange"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="PAYMENT PROCESS"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/newpackagetextview"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="User Name"
+            android:textColor="@color/AshGreen"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/JourneyDatePayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:text="Journey Date"
+                android:textAlignment="center"
+                android:textColor="@color/AshGreen"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TotalPERSONSPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total Persom"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TotalOrderPricePayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:text="Total Price Goes Here "
+                android:textColor="@color/AshGreen"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/EnterPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:text="Please Enter Your Phone Number"
+                android:textAlignment="center"
+                android:textColor="@color/AshGreen"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Phone_Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Click To Enter Number"
+                android:textColorHint="@color/AshGreen"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:text="Pay now"
+                android:id="@+id/PayNowProcess"
+                />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

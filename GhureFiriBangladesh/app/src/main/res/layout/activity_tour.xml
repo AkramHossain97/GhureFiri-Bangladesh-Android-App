@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tour"
+    android:background="@drawable/tourbg">
+
+    <TextView
+        android:layout_width="410dp"
+        android:id="@+id/WhereT"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="Where Do You Want To Go ?"
+        >
+    </TextView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Place_List"
+        android:layout_marginTop="51dp"
+        />
+
+
+
+
+</RelativeLayout>

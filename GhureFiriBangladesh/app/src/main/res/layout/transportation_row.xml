@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/transportation_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/add_btn" />
+
+        <TextView
+            android:id="@+id/transportation_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/newpackagetextview"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Transportation type goes here"
+            android:textColor="@color/AshGreen"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/transportation_comName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/newpackagetextview"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Provider name goes here"
+            android:textColor="@color/AshGreen"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/seats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Seats"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                />
+
+            <TextView
+                android:id="@+id/Type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Type"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/TimeOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TimeOne"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/TimeTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TimeTwo"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/TimeThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TimeThree"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/transportation_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:text="Price Goes Here "
+                android:textColor="@color/AshGreen"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

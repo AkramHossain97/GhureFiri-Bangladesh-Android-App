@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SinglePackageActivity"
+    android:background="@drawable/darkgb"
+    >
+
+
+    <ImageView
+        android:id="@+id/PackageImage"
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        app:srcCompat="@mipmap/add_btn"
+
+        />
+
+    <TextView
+        android:id="@+id/pack_title"
+        android:background="@color/newpackagetextview"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="0dp"
+        android:padding="15dp"
+        android:text="Package Title" />
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/newpackagetextview"
+        android:padding="15dp"
+        android:text="Package Description"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/accommodation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/newpackagetextview"
+        android:padding="15dp"
+        android:text="Package Accommodation"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/food_dine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/newpackagetextview"
+        android:padding="15dp"
+        android:text="Dining Options"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/spots_visit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/newpackagetextview"
+        android:padding="15dp"
+        android:text="Spot Covers"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/transportation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/newpackagetextview"
+        android:padding="15dp"
+        android:text="Transportation"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/Pprice"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="92dp"
+        android:background="@color/newpackagetextview"
+        android:padding="15dp"
+        android:text="Package Price"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Date_pickPackage"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="59dp"
+        android:background="@color/newpackagetextview"
+        android:clickable="true"
+        android:hint="Click to select Date"
+        android:textAlignment="center"
+        android:textColor="@color/AshGreen"
+        android:textColorHint="@color/AshGreen"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/ConfirmBookings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:text="Confirm Booking" />
+
+
+</RelativeLayout>

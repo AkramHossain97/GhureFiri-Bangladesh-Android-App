@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    tools:context=".PackageOrder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/AshGreen">
+
+
+        <TextView
+            android:id="@+id/OrderInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mateOrange"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="ORDER INFORMATION"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/UNAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/newpackagetextview"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="User Name Goes Here "
+            android:textColor="@color/AshGreen"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PackageNameOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/newpackagetextview"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Package Booked goes here"
+            android:textColor="@color/AshGreen"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PackageDesceOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:text="Package Description goes here"
+                android:textColor="@color/AshGreen"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/PackageHotelOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:text="Hotel Booked Goes Here"
+                android:textColor="@color/AshGreen"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/packageDiningOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:text="Dining Will Go Here"
+                android:textAlignment="center"
+                android:textColor="@color/AshGreen"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/CoveringSpotsPackageOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Covering Spots Will Go Here"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/PackageTransportationOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Transportation Goes Here"
+                android:textStyle="bold"
+                android:textColor="@color/AshGreen"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PackageJourneyDateOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:text="Journey Date"
+                android:textAlignment="center"
+                android:textColor="@color/AshGreen"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TotalPackagePriceOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:text="Total Price Goes Here "
+                android:textColor="@color/AshGreen"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/UPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/newpackagetextview"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:hint="Click To Add Phone Number"
+                android:textColorHint="@color/AshGreen"
+                android:textColor="@color/AshGreen"
+
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="65dp"
+                android:text="Pay now"
+                android:id="@+id/PackagePayNow"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
